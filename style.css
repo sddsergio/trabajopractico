@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-color: rgb(61, 61, 61);
+    justify-content: stretch;
+}
+.navbar-nav {
+    width: 100%;
+    border: 1px solid green;
+    justify-content:end;
+    float: right;
+}
+#navbarNav li a{
+    margin-left: 10px;
+    color: rgb(216, 189, 189);
+    font-size: 25px;
+}
+.titulo{
+    text-align: left;
+}
+.content{
+    background: url(img/ba1.jpg) no-repeat center center fixed; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parrafo{
+    color: #fff;
+    text-align: right;
+    font-size: 1.8em;
+}
+.card{
+    align-items: center;
+    justify-content: space-evenly;
+    width: 450px;
+}
