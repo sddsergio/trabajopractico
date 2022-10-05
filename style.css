@@ -1,9 +1,9 @@
 *{
     box-sizing: border-box;
-}
-.container-fluid{
     margin: 0;
     padding: 0;
+}
+.container-fluid{
     color: #fff;
     background-color: rgb(61, 61, 61);
     justify-content: stretch;
@@ -21,21 +21,40 @@
 .titulo{
     text-align: left;
 }
-.card{
-    align-items: center;
-    justify-content: space-evenly;
-    width: 400px;
-}
 .banner{
+    position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
     background: url(img/ba1.jpg);
+    background-size: cover;
     background-position: center;
 }
 .banner-texto{
-    color: #fff;
     position: relative;
-    right: -500px;
-    top:600px;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    float: right;
+}
+.titulo-cards{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+.cards{
+    width: 60%;
+    justify-content:space-between;
+    align-items: center;
+    margin: auto;
+}
+section img{
+    width: 50%;
+}
+.text-section{
+    color: #fff;
+    background:url(img/honolulu.jpg);
+}
+.text-section h2 p{
+    float: right;
 }
