@@ -26,3 +26,15 @@
     justify-content: space-evenly;
     width: 400px;
 }
+.banner{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: url(img/ba1.jpg);
+}
+.banner-texto{
+    color: #fff;
+    position: relative;
+    right: -500px;
+    top:600px;
+}
