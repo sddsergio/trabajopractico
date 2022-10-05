@@ -48,13 +48,4 @@
     align-items: center;
     margin: auto;
 }
-section img{
-    width: 50%;
-}
-.text-section{
-    color: #fff;
-    background:url(img/honolulu.jpg);
-}
-.text-section h2 p{
-    float: right;
-}
+
