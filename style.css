@@ -22,7 +22,7 @@
     text-align: left;
 }
 .banner{
-    width: 100vw;
+    
     height: 100vh;
     display: flex;
     background: url(img/ba1.jpg);
@@ -30,9 +30,10 @@
     background-position: center;
 }
 .banner-texto{
-    float: right;
+    position: relative;
+    top: 70%;
+    left: 50%;
     color: #fff;
-    float: right;
 }
 .titulo-cards{
     text-align: center;
