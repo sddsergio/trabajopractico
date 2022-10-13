@@ -22,7 +22,6 @@
     text-align: left;
 }
 .banner{
-    position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -31,9 +30,7 @@
     background-position: center;
 }
 .banner-texto{
-    position: relative;
-    top: 50%;
-    left: 30%;
+    float: right;
     color: #fff;
     float: right;
 }
