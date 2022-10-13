@@ -33,7 +33,7 @@
 .banner-texto{
     position: relative;
     top: 50%;
-    left: 50%;
+    left: 30%;
     color: #fff;
     float: right;
 }
@@ -48,4 +48,3 @@
     align-items: center;
     margin: auto;
 }
-
