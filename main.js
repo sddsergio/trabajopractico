@@ -8,22 +8,27 @@ const ticket = 200;
 
 btn2.addEventListener('click', () => {
     // console.log(opciones.value);
-    console.log(cantidad.value);
+    // console.log(cantidad.value);
 
     total.appendChild(resumen);
 
     if (opciones.value == 'Estudiante') {
-        console.log(ticket);
+        console.log('cantidad ' + cantidad.value)
+        console.log('precio * ticket' + ticket);
         console.log('Sos Estudiante');
-        resumen.innerText = 'Iria el resultado de estudiante';
+        resumen.innerText = Number(ticket * 0.80 / 1) * cantidad.value ;
     } 
     else if (opciones.value == 'Trainee'){
+        console.log('cantidad ' + cantidad.value)
+        console.log('precio ' + ticket);
         console.log('Sos Trainee');
-        resumen.innerText = 'Iria el resultado de Trainee';
+        resumen.innerText = Number(ticket * 0.50 / 100) * cantidad.value ;
     }    
     else if (opciones.value == 'Junior'){
-        console.log('Sos Junior');
-        resumen.innerText = 'Iria el resultado de Junior';
+        console.log('cantidad ' + cantidad.value)
+        console.log('precio ' + ticket);
+        console.log('Sos Trainee');
+        resumen.innerText = Number(ticket * 0.15 / 100) * cantidad.value ;
     }    
     
 
