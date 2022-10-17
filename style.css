@@ -26,15 +26,19 @@
     text-align: left;
 }
 .banner{
-    
     height: 100vh;
     display: flex;
     background: url(img/ba1.jpg);
     background-size: cover;
     background-position: center;
+    background-blend-mode: darken;
 }
 .banner-texto{
+    position: relative;
+    top: 50%;
+    left: 50%;
     color: #fff;
+    overflow: hidden;
 }
 .titulo-cards{
     text-align: center;
@@ -48,7 +52,16 @@
     margin: auto;
 }
 .octubre-content{
+    height: auto;
     background-color: rgb(77, 73, 73)
+}
+.octubre-text{
+    float:right;
+    margin-left: 50%; 
+    padding: 10px;
+    position: absolute; 
+    font-size: 15px; 
+    color: #fff;
 }
 
 .cajas{
