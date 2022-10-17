@@ -26,6 +26,7 @@
     text-align: left;
 }
 .banner{
+    
     height: 100vh;
     display: flex;
     background: url(img/ba1.jpg);
@@ -33,9 +34,7 @@
     background-position: center;
 }
 .banner-texto{
-    position: relative;
-    top: 60%;
-    left: 50%;
+    border: 1px solid black;
     color: #fff;
 }
 .titulo-cards{
@@ -65,4 +64,14 @@
 }
 #caja3{
     border: 1px solid greenyellow;
+}
+.contact-form{
+    border: 1px solid blue;
+    text-align: center;
+}
+.div{
+    display: flex;
+}
+.div img{
+    width: 300px;
 }
