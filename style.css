@@ -48,6 +48,10 @@
     align-items: center;
     margin: auto;
 }
+.octubre-content{
+    background-color: rgb(77, 73, 73)
+}
+
 .cajas{
     margin: 0 auto;
     text-align: center;
@@ -65,13 +69,17 @@
 #caja3{
     border: 1px solid greenyellow;
 }
-.contact-form{
-    border: 1px solid blue;
+.divpadre{
     text-align: center;
+    max-width: 70%;
+    margin: 0 auto;
 }
-.div{
-    display: flex;
+
+#btngreen{
+    color: green;
 }
-.div img{
-    width: 300px;
+
+
+.foot{
+    background-color: rgb(65, 65, 120); color: #fff;
 }
