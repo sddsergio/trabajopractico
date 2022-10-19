@@ -26,6 +26,7 @@
     text-align: left;
 }
 .banner{
+    position: relative;
     height: 100vh;
     display: flex;
     background: url(img/ba1.jpg);
@@ -33,20 +34,14 @@
     background-position: center;
     background-blend-mode: darken;
 }
-.banner-texto{
-    position: relative;
-    top: 50%;
-    left: 50%;
-    color: #fff;
-    overflow: hidden;
-}
+
 .titulo-cards{
     text-align: center;
     justify-content: center;
     margin: auto;
 }
 .cards{
-    width: 60%;
+    width: auto;
     justify-content:space-between;
     align-items: center;
     margin: auto;

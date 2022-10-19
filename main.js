@@ -12,22 +12,19 @@ btn2.addEventListener('click', () => {
 
     total.appendChild(resumen);
 
-    if (opciones.value == 'Estudiante') {
+    if (opciones.value == 'Estudiante'){
         console.log('cantidad ' + cantidad.value)
         console.log('precio * ticket' + ticket);
-        console.log('Sos Estudiante');
         resumen.innerText = cantidad.value * (ticket - (ticket * 0.80));
     } 
     else if (opciones.value == 'Trainee'){
         console.log('cantidad ' + cantidad.value)
         console.log('precio ' + ticket);
-        console.log('Sos Trainee');
         resumen.innerText = cantidad.value * (ticket - (ticket * 0.50));
     }    
     else if (opciones.value == 'Junior'){
         console.log('cantidad ' + cantidad.value)
         console.log('precio ' + ticket);
-        console.log('Sos Junior');
         resumen.innerText = cantidad.value * (ticket - (ticket * 0.15));
     }    
 });
