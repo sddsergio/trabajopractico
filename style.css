@@ -34,7 +34,9 @@
     background-position: center;
     background-blend-mode: darken;
 }
-
+#bannertext{
+    margin-bottom: 3em;
+}
 .titulo-cards{
     text-align: center;
     justify-content: center;
