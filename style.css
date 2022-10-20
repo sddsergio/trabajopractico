@@ -66,6 +66,7 @@
     text-align: center;
 }
 .cajas .categorias{
+    padding: 10px 10px;
     display: inline-block;
     justify-content: space-between;
 }
@@ -84,6 +85,14 @@
     margin: 0 auto;
 }
 
+#total p{
+    color: blue;
+    background: rgb(241, 238, 238);
+}
+
+#btngreen{
+    margin-bottom: 5em;
+}
 
 .foot{
     background-color: rgb(65, 65, 120); color: #fff;
