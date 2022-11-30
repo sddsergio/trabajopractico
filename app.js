@@ -7,7 +7,10 @@ const PORT = 3001;
 // app.get("/", (req, res) => {
 //     res.send('Hola mundooosssooooo');
 // });
+
+
 app.use(express.static('public'));
+
 app.listen(PORT, () => {
     console.log(`App escuchando en el puert ${PORT}`);
 });
